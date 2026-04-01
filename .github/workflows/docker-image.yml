@@ -44,6 +44,6 @@ jobs:
         NEW_VERSION: ${{ steps.version.outputs.version }}
       run: |
         docker push cesdev66/docker-graphql:$NEW_VERSION
-        docker push cesdev66/docker-graphql:0.0.2
+        docker push cesdev66/docker-graphql:latest
 
         
